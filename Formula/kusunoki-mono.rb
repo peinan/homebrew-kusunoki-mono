@@ -91,7 +91,7 @@ class KusunokiMono < Formula
     end
 
     system "bash", "scripts/build.sh"
-    (share/"fonts").install Dir["build/sfms/dist/KusunokiMono-*.otf"]
+    (share/"fonts").install Dir["dist/KusunokiMono-*.otf"]
   end
 
   def caveats
