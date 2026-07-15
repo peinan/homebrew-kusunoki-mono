@@ -7,10 +7,9 @@ distributed.
 
 ```sh
 brew tap peinan/kusunoki-mono
-brew install --HEAD kusunoki-mono
+brew install kusunoki-mono
 cp "$(brew --prefix)/share/fonts/KusunokiMono-"*.otf ~/Library/Fonts/
 ```
 
-`--HEAD` is required until the first tagged release. Everything else — what
-the font is, the tuning knobs, the build pipeline — is documented in the
-[main repository](https://github.com/peinan/kusunoki-mono).
+Everything else — what the font is, the tuning knobs, the build pipeline —
+is documented in the [main repository](https://github.com/peinan/kusunoki-mono).
