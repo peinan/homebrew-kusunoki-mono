@@ -100,7 +100,10 @@ class KusunokiMono < Formula
     <<~EOS
       The built fonts are in:
         #{opt_share}/fonts
-      Homebrew does not register fonts with macOS; copy them yourself:
+      To install them into ~/Library/Fonts (and keep them in sync across
+      upgrades), use the companion cask instead:
+        brew install --cask peinan/kusunoki-mono/font-kusunoki-mono
+      Or copy them manually:
         cp "#{opt_share}/fonts/KusunokiMono-"*.otf ~/Library/Fonts/
     EOS
   end
