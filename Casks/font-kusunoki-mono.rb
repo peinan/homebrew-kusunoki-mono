@@ -4,8 +4,8 @@
 # uninstall. The url below only pins the release version — the actual font
 # files come from the formula's share/fonts via the preflight block.
 cask "font-kusunoki-mono" do
-  version "0.6.0"
-  sha256 "0b53c01c158cbd8353a8f457c16d96578138b34f143448abf4ec246d1dbbeccf"
+  version "0.7.0"
+  sha256 "1e016c2194387d15616f4817ecc324bc0e33618bf61f2dc1da493d278a1e069c"
 
   url "https://github.com/peinan/kusunoki-mono/archive/refs/tags/v#{version}.tar.gz"
   name "Kusunoki Mono"

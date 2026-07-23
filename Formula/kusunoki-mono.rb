@@ -6,8 +6,8 @@ require "etc"
 class KusunokiMono < Formula
   desc "Japanese coding font: SF Mono on a square grid + LINE Seed JP, built locally"
   homepage "https://github.com/peinan/kusunoki-mono"
-  url "https://github.com/peinan/kusunoki-mono/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "0b53c01c158cbd8353a8f457c16d96578138b34f143448abf4ec246d1dbbeccf"
+  url "https://github.com/peinan/kusunoki-mono/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "1e016c2194387d15616f4817ecc324bc0e33618bf61f2dc1da493d278a1e069c"
   license :cannot_represent # scripts by the author; output embeds Apple SF Mono, personal use only
   head "https://github.com/peinan/kusunoki-mono.git", branch: "main"
 
